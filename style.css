@@ -1,0 +1,105 @@
+.container{
+    margin: auto;
+    width: 1000px;
+}
+h1{
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.minhaz{
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.labib, .takrim{
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    min-height: 300px;
+    color: white;
+    background-color: tomato;
+}
+
+.flex-container{
+    background-color: #27ae60;
+    width: 1000px;
+    margin: auto;
+}
+#flex{
+    display: flex;
+}
+.flex-container div{
+    background-color: #e67e22;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    line-height: 75px;
+    text-align: center;
+}
+#flex-derection{
+    display: flex;
+    flex-direction: column;
+}
+#fd-row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#fd-colom-revers{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#fd-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fw-wr{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+#ff-rr{
+    display: flex;
+    flex-flow: wrap;
+}
+
+#fj-contenet{
+    display: flex;;
+    justify-content: flex-start;
+}
+
+#flex-end{
+    display: flex;
+    justify-content: space-between;
+}
+#space-around{
+    display: flex;
+    justify-content: space-evenly;
+}
+#align-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+#align-item div{
+    height: 50px;
+}
+#aijs{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
